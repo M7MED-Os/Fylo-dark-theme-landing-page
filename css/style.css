@@ -131,13 +131,15 @@ main {
   background-color: var(--navy-850);
   position: relative;
   padding-bottom: var(--main-sec-padding);
+  height: calc(100vh - 73.92px);
+  display: flex;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .landing {
     height: calc(100vh - 73.92px);
   }
-}
+} */
 
 .landing::before {
   content: "";
